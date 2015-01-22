@@ -1,1 +1,0 @@
-# xstatic-smart-table
