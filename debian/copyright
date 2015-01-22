@@ -1,0 +1,81 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: XStatic-smart-table
+Upstream-Contact: Richard Jones <r1chardj0n3s@gmail.com>
+Source: git://github.com/r1chardj0n3s/xstatic-smart-table.git
+
+Files: debian/*
+Copyright: (c) 2014, Thomas Goirand <zigo@debian.org>
+License: Apache-2
+
+Files: xstatic/pkg/angular_smart_table/data/smart-table.js
+Copyright: (c) 2010-2014, lorenzofox3 <laurent34azerty@gmail.com>
+           (c) 2010-2013, Igor Minar <igor@angularjs.org>
+           (c) 2014, RENARD Laurent <laurent34azerty@gmail.com>
+           (c) 2011-2012, Vojta Jina <vojta.jina@gmail.com>
+           (c) 2013, Matthew Hollingsworth <matt.hollingsworth@soartech.com>
+           (c) 2013, Mark Fayngersh <mark@crowdtwist.com>
+           (c) 2014, Almar <almarmail-info@yahoo.com>
+           (c) 2013, Alex Pop <palexandru@gmail.com>
+           (c) 2014, Pavel Sysolyatin <sysolyatin@aurus5.ru>
+           (c) 2013, Misko Hevery <misko@hevery.com>
+           (c) 2013, Dave Keen <dev@ruffness.com>
+           (c) 2014, unknown <nex03cd@NEX03CD-TRO1.pbi.global.pvt>
+           (c) 2014, TNGPS <matthijs@kadijk.com>
+           (c) 2014, The Gitter Badger <badger@gitter.im>
+           (c) 2014, replacement87 <dumarey.arne@gmail.com>
+           (c) 2012, Petr Severa <segedacz@gmail.com>
+           (c) 2014, Morten Rogenes <morten.rogenes@bouvet.no>
+           (c) 2013, Michael Neale <michael.neale@gmail.com>
+           (c) 2013, Mark Fayngersh <mark.fayngersh@gmail.com>
+           (c) 2011, Marcello Nuccio <marcello.nuccio@gmail.com>
+           (c) 2012, Jason Stone <rolaveric@gmail.com>
+           (c) 2012, Jaap Karan Singh Dua <jksdua@gmail.com>
+           (c) 2011, Ilya Fedotov <ifedotov@gmail.com>
+           (c) 2014, htellez <htellez@nearbpo.com>
+           (c) 2012, DjebbZ <khalid.jebbari@gmail.com>
+           (c) 2014, DenisKalic <dkalic6@gmail.com>
+           (c) 2012, Daniel Zen <daniel@zendigital.com>
+           (c) 2014, christopherthielen <github@sandgnat.com>
+           (c) 2011, Christoph Burgdorf <christoph.burgdorf@bvsn.org>
+           (c) 2012, Alexey Golev <alexey.golev@wearegoat.com>
+License: Expat
+
+Files: *
+Copyright: (c) 2014-2015, Richard Jones <r1chardj0n3s@gmail.com>
+License: Apache-2
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER   
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+License: Apache-2
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+    http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ On Debian-based systems the full text of the Apache version 2.0 license
+ can be found in /usr/share/common-licenses/Apache-2.0.
+

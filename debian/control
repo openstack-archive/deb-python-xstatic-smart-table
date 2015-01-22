@@ -1,0 +1,44 @@
+Source: python-xstatic-smart-table
+Section: python
+Priority: optional
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-all (>= 2.6.6-3~),
+               python-setuptools,
+               python3-all,
+               python3-setuptools
+Build-Conflicts: python-xstatic, python3-xstatic
+Standards-Version: 3.9.6
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-xstatic-smart-table.git
+Vcs-Git: git://anonscm.debian.org/openstack/python-xstatic-smart-table.git
+Homepage: https://github.com/r1chardj0n3s/xstatic-smart-table
+
+Package: python-xstatic-smart-table
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: libjs-angularjs-smart-table, ${misc:Depends}, ${python:Depends}
+Description: AngularJS smart-table (XStatic packaging standard) - Python 2.x
+ XStatic is a Python web development tool for handling required static data
+ files from external projects, such as CSS, images, and JavaScript. It provides
+ a lightweight infrastructure to manage them via Python modules that your app
+ can depend on in a portable, virtualenv-friendly way instead of using embedded
+ copies.
+ .
+ This package contains the Python 2.x module for supporting the smart-table
+ javascript library.
+
+Package: python3-xstatic-smart-table
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: libjs-angularjs-smart-table, ${misc:Depends}, ${python3:Depends}
+Description: AngularJS smart-table (XStatic packaging standard) - Python 3.x
+ XStatic is a Python web development tool for handling required static data
+ files from external projects, such as CSS, images, and JavaScript. It provides
+ a lightweight infrastructure to manage them via Python modules that your app
+ can depend on in a portable, virtualenv-friendly way instead of using embedded
+ copies.
+ .
+ This package contains the Python 3.x module for supporting the smart-table
+ javascript library.

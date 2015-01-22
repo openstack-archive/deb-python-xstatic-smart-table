@@ -1,0 +1,5 @@
+python-xstatic-smart-table (1.4.5.3-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Thomas Goirand <zigo@debian.org>  Thu, 22 Jan 2015 15:43:52 +0100

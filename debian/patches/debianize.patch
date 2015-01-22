@@ -1,0 +1,20 @@
+Description: Do not use embedded smart-table
+ Use stuff from libjs-angularjs-smart-table
+Author: Thomas Goirand <zigo@debian.org>
+Forwarded: not-needed
+Last-Update: 2015-01-22
+
+--- python-xstatic-smart-table-1.4.5.3.orig/xstatic/pkg/angular_smart_table/__init__.py
++++ python-xstatic-smart-table-1.4.5.3/xstatic/pkg/angular_smart_table/__init__.py
+@@ -38,9 +38,9 @@ HOMEPAGE = 'https://github.com/lorenzofo
+ LICENSE = '(same as %s)' % DISPLAY_NAME
+ 
+ from os.path import join, dirname
+-BASE_DIR = join(dirname(__file__), 'data')
++#BASE_DIR = join(dirname(__file__), 'data')
+ # linux package maintainers just can point to their file locations like this:
+-#BASE_DIR = '/usr/share/javascript/' + NAME
++BASE_DIR = '/usr/share/javascript/smart-table'
+ 
+ # location of the Javascript file that's the entry point for this package, if
+ # one exists, relative to BASE_DIR
