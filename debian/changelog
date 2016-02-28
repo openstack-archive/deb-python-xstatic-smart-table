@@ -1,3 +1,9 @@
+python-xstatic-smart-table (1.4.5.3-2) UNRELEASED; urgency=medium
+
+  * Fixed VCS URLs (https).
+
+ -- Ondřej Nový <novy@ondrej.org>  Sun, 28 Feb 2016 15:55:25 +0100
+
 python-xstatic-smart-table (1.4.5.3-1) unstable; urgency=medium
 
   * Initial release. (Closes: #XXXXXX)
