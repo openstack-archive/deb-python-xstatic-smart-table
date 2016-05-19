@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: XStatic-smart-table
 Upstream-Contact: Richard Jones <r1chardj0n3s@gmail.com>
-Source: git://github.com/r1chardj0n3s/xstatic-smart-table.git
+Source: https://github.com/r1chardj0n3s/xstatic-smart-table
 
 Files: debian/*
 Copyright: (c) 2014, Thomas Goirand <zigo@debian.org>
