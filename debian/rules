@@ -3,7 +3,7 @@
 PYTHONS:=$(shell pyversions -vr)
 PYTHON3S:=$(shell py3versions -vr)
 
-UPSTREAM_GIT = git://github.com/r1chardj0n3s/xstatic-smart-table.git
+UPSTREAM_GIT := https://github.com/r1chardj0n3s/xstatic-smart-table.git
 -include /usr/share/openstack-pkg-tools/pkgos.make
 
 %:
