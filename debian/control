@@ -11,8 +11,8 @@ Build-Depends: debhelper (>= 9),
                python3-setuptools
 Build-Conflicts: python-xstatic, python3-xstatic
 Standards-Version: 3.9.6
-Vcs-Browser: https://anonscm.debian.org/cgit/openstack/python-xstatic-smart-table.git/
-Vcs-Git: https://anonscm.debian.org/git/openstack/python-xstatic-smart-table.git
+Vcs-Browser: https://git.openstack.org/cgit/openstack/deb-python-xstatic-smart-table?h=debian%2Fnewton
+Vcs-Git: https://git.openstack.org/openstack/deb-python-xstatic-smart-table -b debian/newton
 Homepage: https://github.com/r1chardj0n3s/xstatic-smart-table
 
 Package: python-xstatic-smart-table
